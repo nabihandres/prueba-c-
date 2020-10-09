@@ -1,0 +1,8 @@
+prefix=/home/nabih/prueba/install
+
+Name: test
+Description: Description of test
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ltest
+Requires: roscpp rospy tf
